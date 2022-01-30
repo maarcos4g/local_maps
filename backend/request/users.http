@@ -1,0 +1,11 @@
+POST http://localhost:3000/store
+content-type: application/json
+
+{
+    "name": "Mercearia do Arthur",
+    "description": "Aqui tem tudo que você gosta.",
+    "category": "Mercearia",
+    "contact": "(79) 932456790",
+    "latitude": 46.75,
+    "longitude": 46.79
+}
