@@ -16,6 +16,7 @@ async function startup() {
 
     app.post("/store", StoreController.save);
     app.get("/store", StoreController.getAll);
+    app.delete("/store/:id", StoreController.deleteItem);
 
     app.listen(PORT, () => {
         console.log("App running on port: " + 3000);

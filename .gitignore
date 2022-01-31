@@ -1,2 +1,3 @@
-/backend/node_modules
-/backend/request
+backend/node_modules
+backend/request/
+backend/request/**/*.http
